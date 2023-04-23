@@ -1,11 +1,11 @@
-Please note that this project is in beta, due to requirements to be completed by MozFest.
+Please note that this project is closed, due to the above.com scammers.
 
-Visit [`badsite.io`](https://badsite.io/) for a list of test subdomains, including:
+Visit [`badsite.io`](https://catpaw9295.wixsite.com/mysite/) for a list of test subdomains, including:
 
-- [`no-csp-xss.badsite.io`](https://no-csp-xss.badsite.io)
-- [`no-xfo.badsite.io`](https://no-xfo.badsite.io)
-- [`observatory-a.badsite.io`](https://observatory-a.badsite.io)
-- [`hsts.badsite.io`](https://hsts.badsite.io)
+- [`no-csp-xss.badsite.io`](https://1806650.wixsite.com/my-site/)
+- [`no-xfo.badsite.io`](https://cataw9295.wixsite.com/mysite/)
+- [`observatory-f.badsite.io`](https://catpaw.webs.com)
+- [`hsts.badsite.io`](https://5faed1232d716.site123.me)
 
 ## Server Setup
 
