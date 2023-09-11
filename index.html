@@ -1,0 +1,209 @@
+ <meta charset="utf-8">
+  <title>badsite.io</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/web/20190124003954im_/https://badsite.io/icons/favicon-blue.ico">
+  <link rel="apple-touch-icon" href="/web/20190124003954im_/https://badsite.io/icons/icon-blue.png">
+  <link rel="stylesheet" href="/web/20190124003954cs_/https://badsite.io/index.css">
+  <link rel="stylesheet" href="/web/20190124003954cs_/https://badsite.io/github-ribbon.css">
+  <script src="/web/20190124003954js_/https://badsite.io/index.js"></script>
+
+  <!-- fUnKy -->
+  <link rel="stylesheet" href="/web/20190124003954cs_/https://badsite.io/funky/funky.css">
+  <script src="/web/20190124003954js_/https://badsite.io/funky/funky.js"></script>
+</head>
+<body>
+<div class="title-bar" title="badsite.io - a memorable site for web security misconfigurations">
+  badsite.io
+</div>
+
+<div id="links">
+
+<div class="column">
+  <!--
+  <div class="group">
+    <h2 id="dashboard"><span class="emoji">🎛</span>Dashboard</h2>
+    <a href="/dashboard" target="_blank" class="bullet-list"><span class="icon"></span>Dashboard</a>
+  </div>
+  -->
+  <div class="group">
+    <h2 id="clickjacking"><span class="emoji">🐁</span>Clickjacking</h2>
+    <a href="https://web.archive.org/web/20190124003954/https://no-xfo.badsite.io/" class="bad"><span class="icon"></span>no-xfo</a>
+    <a href="https://web.archive.org/web/20190124003954/https://xfo.badsite.io/" class="good"><span class="icon"></span>xfo</a>
+  </div>
+  <div class="group">
+    <h2 id="content-security-policy"><span class="emoji">✋</span>Content Security Policy</h2>
+    <a href="https://web.archive.org/web/20190124003954/https://no-csp-css-keylogger.badsite.io/" class="bad"><span class="icon"></span>no-csp-css-keylogger</a>
+    <a href="https://web.archive.org/web/20190124003954/https://no-csp-xss.badsite.io/" class="bad"><span class="icon"></span>no-csp-xss</a>
+    <a href="https://web.archive.org/web/20190124003954/https://no-csp-eval.badsite.io/" class="bad"><span class="icon"></span>no-csp-eval</a>
+    <a href="https://web.archive.org/web/20190124003954/https://csp-xss.badsite.io/" class="dubious"><span class="icon"></span>csp-xss</a>
+    <a href="https://web.archive.org/web/20190124003954/https://csp-eval.badsite.io/" class="dubious"><span class="icon"></span>csp-eval</a>
+    <a href="https://web.archive.org/web/20190124003954/https://strong-csp.badsite.io/" class="good"><span class="icon"></span>csp-strong</a>
+  </div>
+  <div class="group">
+    <h2 id="cookies"><span class="emoji">🍪</span>Cookies</h2>
+    <a href="https://web.archive.org/web/20190124003954/https://samesite-strict.badsite.io/" class="good"><span class="icon"></span>samesite-strict</a>
+    <a href="https://web.archive.org/web/20190124003954/https://samesite-lax.badsite.io/" class="good"><span class="icon"></span>samesite-lax</a>
+    <a href="https://web.archive.org/web/20190124003954/https://samesite.badsite.cross-origin.io/" class="good"><span class="icon"></span>samesite-cross-origin</a>
+    <a href="https://web.archive.org/web/20190124003954/https://third-party.badsite.io/" class="dubious"><span class="icon"></span>third-party</a>
+  </div>
+  <div class="group">
+    <h2 id="cross-origin-resource-sharing"><span class="emoji">👥</span>Cross-Origin Resource Sharing</h2>
+    <a href="https://web.archive.org/web/20190124003954/https://open-crossdomain.badsite.io/" class="bad"><span class="icon"></span>open-crossdomain</a>
+  </div>
+<!--
+    <a href="https://expired.badsite.io/" class="bad"><span class="icon"></span>expired</a>
+    <a href="https://wrong.host.badsite.io/" class="bad"><span class="icon"></span>wrong.host</a>
+    <a href="https://self-signed.badsite.io/" class="bad"><span class="icon"></span>self-signed</a>
+    <a href="https://untrusted-root.badsite.io/" class="bad"><span class="icon"></span>untrusted-root</a>
+    <a href="https://revoked.badsite.io/" class="bad"><span class="icon"></span>revoked</a>
+    <a href="https://pinning-test.badsite.io/" class="bad"><span class="icon"></span>pinning-test</a>
+    <hr>
+    <a href="https://no-common-name.badsite.io/" class="dubious"><span class="icon"></span>no-common-name</a>
+    <a href="https://no-subject.badsite.io/" class="dubious"><span class="icon"></span>no-subject</a>
+    <a href="https://incomplete-chain.badsite.io/" class="dubious"><span class="icon"></span>incomplete-chain</a>
+    <hr>
+    <a href="https://sha1-intermediate.badsite.io/" class="bad"><span class="icon"></span>sha1-intermediate</a>
+    <a href="https://sha256.badsite.io/" class="good"><span class="icon"></span>sha256</a>
+    <a href="https://sha384.badsite.io/" class="good"><span class="icon"></span>sha384</a>
+    <a href="https://sha512.badsite.io/" class="good"><span class="icon"></span>sha512</a>
+    <hr>
+    <a href="https://1000-sans.badsite.io/" class="good"><span class="icon"></span>1000-sans</a>
+    <a href="https://10000-sans.badsite.io/" class="good"><span class="icon"></span>10000-sans</a>
+    <hr>
+    <a href="https://ecc256.badsite.io/" class="good"><span class="icon"></span>ecc256</a>
+    <a href="https://ecc384.badsite.io/" class="good"><span class="icon"></span>ecc384</a>
+    <hr>
+    <a href="https://rsa2048.badsite.io/" class="good"><span class="icon"></span>rsa2048</a>
+    <a href="https://rsa8192.badsite.io/" class="dubious"><span class="icon"></span>rsa8192</a>
+  </div>
+  <div class="group">
+    <h2 id="http"><span class="emoji">✏️</span>HTTP</h2>
+    <a href="http://http.badsite.io/" class="bad"><span class="icon"></span>http</a>
+    <a href="http://http-textarea.badsite.io/" class="bad"><span class="icon"></span>http-textarea</a>
+    <a href="http://http-password.badsite.io/" class="bad"><span class="icon"></span>http-password</a>
+    <a href="http://http-login.badsite.io/" class="bad"><span class="icon"></span>http-login</a>
+    <a href="http://http-dynamic-login.badsite.io/" class="bad"><span class="icon"></span>http-dynamic-login</a>
+    <a href="http://http-credit-card.badsite.io/" class="bad"><span class="icon"></span>http-credit-card</a>
+  </div>
+  <div class="group">
+    <h2 id="cipher-suite"><span class="emoji">🔀</span>Cipher Suite</h2>
+    <a href="https://cbc.badsite.io/" class="dubious"><span class="icon"></span>cbc</a>
+    <a href="https://rc4-md5.badsite.io/" class="bad"><span class="icon"></span>rc4-md5</a>
+    <a href="https://rc4.badsite.io/" class="bad"><span class="icon"></span>rc4</a>
+    <a href="https://3des.badsite.io/" class="bad"><span class="icon"></span>3des</a>
+    <a href="https://null.badsite.io/" class="bad"><span class="icon"></span>null</a>
+    <hr>
+    <a href="https://mozilla-old.badsite.io/" class="bad"><span class="icon"></span>mozilla-old</a>
+    <a href="https://mozilla-intermediate.badsite.io/" class="dubious"><span class="icon"></span>mozilla-intermediate</a>
+    <a href="https://mozilla-modern.badsite.io/" class="good"><span class="icon"></span>mozilla-modern</a>
+    -->
+</div><!-- class="column" -->
+
+<div class="column">
+  <div class="group">
+    <h2 id="images"><span class="emoji">🖼</span>Images</h2>
+    <a href="https://web.archive.org/web/20190124003954/https://decompression-bombs.badsite.io/" class="bad"><span class="icon"></span>decompression-bombs</a>
+    <a href="https://web.archive.org/web/20190124003954/https://svg-xss.badsite.io/" class="bad"><span class="icon"></span>svg-xss</a>
+  </div>
+  <div class="group">
+    <h2 id="miscellaneous"><span class="emoji">🍑</span>Miscellaneous</h2>
+    <a href="https://web.archive.org/web/20190124003954/http://http.badsite.io/" class="dubious"><span class="icon"></span>http</a>
+    <a href="https://web.archive.org/web/20190124003954/https://observatory-a-plus.badsite.io/" class="good"><span class="icon"></span>observatory-a-plus</a>
+    <a href="https://web.archive.org/web/20190124003954/http://observatory-f.badsite.io/" class="bad"><span class="icon"></span>observatory-f</a>
+  </div>
+  <div class="group">
+    <h2 id="mixed-content"><span class="emoji">🍹</span>Mixed Content</h2>
+    <a href="https://web.archive.org/web/20190124003954/https://mixed-object-loader.badsite.io/" class="dubious"><span class="icon"></span>mixed-object-loader</a>
+  </div>
+  <div class="group">
+    <h2 id="referrer-policy"><span class="emoji">🛂</span>Referrer Policy</h2>
+    <a href="https://web.archive.org/web/20190124003954/https://no-referrer.badsite.io/" class="good"><span class="icon"></span>no-referrer</a>
+    <a href="https://web.archive.org/web/20190124003954/https://unsafe-url.badsite.io/" class="bad"><span class="icon"></span>unsafe-url</a>
+  </div>
+  <div class="group">
+    <h2 id="strict-transport-security"><span class="emoji">🔑</span>Strict Transport Security</h2>
+    <a href="https://web.archive.org/web/20190124003954/https://hsts.badsite.io/" class="good"><span class="icon"></span>hsts</a>
+<!--
+    <a href="https://dh512.badsite.io/" class="bad"><span class="icon"></span>dh512</a>
+    <a href="https://dh1024.badsite.io/" class="dubious"><span class="icon"></span>dh1024</a>
+    <a href="https://dh2048.badsite.io/" class="good"><span class="icon"></span>dh2048</a>
+    <hr>
+    <a href="https://dh-small-subgroup.badsite.io/" class="bad"><span class="icon"></span>dh-small-subgroup</a>
+    <a href="https://dh-composite.badsite.io/" class="bad"><span class="icon"></span>dh-composite</a>
+    <hr>
+    <a href="https://static-rsa.badsite.io/" class="dubious"><span class="icon"></span>static-rsa</a>
+  </div>
+  <div class="group">
+    <h2 id="protocol"><span class="emoji">↔️</span>Protocol</h2>
+    <a href="https://tls-v1-0.badsite.io:1010/" class="dubious"><span class="icon"></span>tls-v1-0</a>
+    <a href="https://tls-v1-1.badsite.io:1011/" class="dubious"><span class="icon"></span>tls-v1-1</a>
+  </div>
+  <div class="group">
+    <h2 id="certificate-transparency"><span class="emoji">🔍</span>Certificate Transparency</h2>
+    <a href="https://invalid-expected-sct.badsite.io/" class="bad"><span class="icon"></span>invalid-expected-sct</a>
+  </div>
+  <div class="group">
+    <h2 id="upgrade"><span class="emoji">⬆️</span>Upgrade</h2>
+    <a href="https://hsts.badsite.io/" class="good"><span class="icon"></span>hsts</a>
+    <a href="https://upgrade.badsite.io/" class="good"><span class="icon"></span>upgrade</a>
+    <hr>
+    <a href="https://preloaded-hsts.badsite.io/" class="good"><span class="icon"></span>preloaded-hsts</a>
+    <a href="https://subdomain.preloaded-hsts.badsite.io/" class="bad"><span class="icon"></span>subdomain.preloaded-hsts</a>
+    <hr>
+    <a href="https://https-everywhere.badsite.io/" class="good"><span class="icon"></span>https-everywhere</a>
+  </div>
+  <div class="group">
+    <h2 id="ui"><span class="emoji">👀</span>UI</h2>
+    <a href="https://spoofed-favicon.badsite.io/" class="dubious"><span class="icon"></span>spoofed-favicon</a>
+    <hr>
+    <a href="https://long-extended-subdomain-name-containing-many-letters-and-dashes.badsite.io/" class="good"><span class="icon"></span>long-extended-subdomain-name-containing-many-letters-and-dashes</a>
+    <a href="https://longextendedsubdomainnamewithoutdashesinordertotestwordwrapping.badsite.io/" class="good"><span class="icon"></span>longextendedsubdomainnamewithoutdashesinordertotestwordwrapping</a>
+  </div>
+  <div class="group">
+    <h2 id="known-bad"><span class="emoji">❌</span>Known Bad</h2>
+    <a href="https://superfish.badsite.io/" class="bad"><span class="icon"></span>(Lenovo) Superfish</a>
+    <a href="https://edellroot.badsite.io/" class="bad"><span class="icon"></span>(Dell) eDellRoot</a>
+    <a href="https://dsdtestprovider.badsite.io/" class="bad"><span class="icon"></span>(Dell) DSD Test Provider</a>
+    <a href="https://preact-cli.badsite.io/" class="bad"><span class="icon"></span>preact-cli</a>
+    <a href="https://webpack-dev-server.badsite.io/" class="bad"><span class="icon"></span>webpack-dev-server</a>
+  </div>
+  <div class="group">
+    <h2 id="chrome"><span class="emoji"><img class="chrome-icon" src="front-page-icons/chrome.svg"></span>Chrome Tests</h2>
+    <a href="https://captive-portal.badsite.io/" class="bad"><span class="icon"></span>captive-portal</a>
+    <a href="https://mitm-software.badsite.io/" class="bad"><span class="icon"></span>mitm-software</a>
+  </div>
+  <div class="group">
+    <h2 id="defunct"><span class="emoji">☠️</span>Defunct</h2>
+    <a href="https://sha1-2016.badsite.io/" class="dubious"><span class="icon"></span>sha1-2016</a>
+    <a href="https://sha1-2017.badsite.io/" class="bad"><span class="icon"></span>sha1-2017</a>
+  </div>
+  <div class="group">
+    <h2 id="test-suites"><span class="emoji">🛠</span>Test Suites</h2>
+    <a href="https://testsafebrowsing.appspot.io/" target="_blank" class="external"><span class="icon"></span>Safe Browsing Tests</a>
+    <a href="https://www.ssllabs.io/ssltest/viewMyClient.html" target="_blank" class="external"><span class="icon"></span>SSL Labs Client Test</a>
+    <a href="https://mitm.watch/" target="_blank" class="external"><span class="icon"></span>mitm.watch</a>
+  </div>
+  -->
+  </div>
+</div><!-- class="column" -->
+
+</div><!-- id="links" -->
+
+<h2 class="your-browser">Your Browser:
+  <div id="browser-info">
+    <span class="highlight">
+      <span id="ua" title="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0">Firefox 117.0</span><br>
+      <span id="os">Windows 10.0</span><br>
+    </span>
+    <span id="click-to-copy">📋 Click to copy</span>
+  </div>
+</h2>
+
+<!-- Start of GitHub ribbon. -->
+<div class="github-fork-ribbon-wrapper right-top-bottom">
+    <div class="github-fork-ribbon">
+        <a href="https://web.archive.org/web/20190124003954/https://github.com/april/badsite.io"><span class="icon"></span>On GitHub</a>
+    </div>
+</div>
+<!-- End of GitHub ribbon. -->
+</body>
